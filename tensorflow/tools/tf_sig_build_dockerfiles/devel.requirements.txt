@@ -35,11 +35,11 @@ gast == 0.4.0
 keras-nightly ~= 2.14.0.dev
 tb-nightly ~= 2.13.0.a
 # Test dependencies
-grpcio ~= 1.59.0 # Earliest version for Python 3.12
+grpcio ~= 1.62.1 # Earliest version for Python 3.12
 portpicker ~= 1.6.0
 scipy ~= 1.7.2; python_version < '3.11'
 scipy ~= 1.9.2; python_version == '3.11' # Earliest version for Python 3.11
-scipy ~= 1.11.3; python_version >= '3.12' # Earliest version for Python 3.12
+scipy ~= 1.13.0; python_version >= '3.12' # Earliest version for Python 3.12
 # Required for TFLite import from JAX tests
 jax ~= 0.4.1; python_version <= '3.11'
 jaxlib ~= 0.4.1; python_version <= '3.11' # Earliest version for Python 3.11
